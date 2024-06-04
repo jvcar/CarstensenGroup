@@ -40,3 +40,4 @@ To start, users should download the InteractiveInfill folder. Enter the folder a
 9. Draw a ROI on the overlaid figure, double click once a closed shape is formed.
 ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/57a90890-6fff-4330-9285-7f3649a9e064)
 10. Run until convergence.
+![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/b5be4ae4-855c-4015-9d67-bedaf4d04c98)
