@@ -2,6 +2,7 @@ close all
 clear 
 set(0,'DefaultFigureWindowStyle','docked')
 addpath MMA_Nov22
+addpath addpath/
 tic
 %% Run Inputs
 parameters;
