@@ -21,6 +21,22 @@ To start, users should download the InteractiveInfill folder. Enter the folder a
 ## How it works (with MBB example):
 1. Enter the appropriate variables for your design problem in the parameters.m file.
 2. Run the IITOdriver.m script
-3. Set up the design problem. Please reference the HiTop 2.0 READme file (steps 3-10) for detailed guidelines for the GUI.
+3. Set up the MBB design problem. Please reference the HiTop 2.0 READme file (steps 3-10) for detailed guidelines for the GUI.
 4. 50 iterations will run automatically
-   - For the MBB, the 50 iteration output will look like the figure below, 
+   - For the MBB, the 50 iteration output will look like the figure below. ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/e7981801-b13c-4218-86d4-b8a0088a49e9)
+5. Draw half a symmetric infill pattern by clicking the continuous lines. Create a closed shape, then double click once complete.
+   ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/7a1506f1-b8e6-4dc5-8621-f4d5a5a15662)
+6. Five images will be generated of the infill field.
+- The infill field as drawn: ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/bee0fba8-80b0-498c-8ee2-e3021f527db0)
+- The infill field after the Heavisides projection: ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/810e4dfe-7d66-4508-afed-74fe844ddff0).
+- The binary infill field generated using the cutoff parameter: ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/528c6cb0-8984-4cd0-aba8-4df8656f8f72).
+- The singular infill pattern: ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/a7bdbde1-58e6-4ab1-aa25-57c1e742a1e7)
+- The 50 iteration optimized design overlaid with the binary infill field: ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/75aa4004-e685-4aa7-9b62-ec206c02f438)
+7. Enter whether you want to change the alignment of the infill with the optimized design (1) Yes (0) No.
+  - If (1) Yes: Enter whether you want to change the left/right alignment (0) or up/down (1).
+  - Enter how many elements up (+) or left (+) / down (-) or right (-) you want to shift the infill field.
+  - Make additional adjustments or proceed to step 8.
+8. Enter how many ROIs you want to draw.
+9. Draw a ROI on the overlaid figure, double click once a closed shape is formed.
+![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/57a90890-6fff-4330-9285-7f3649a9e064)
+10. Run until convergence.
