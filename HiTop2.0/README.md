@@ -77,7 +77,7 @@ Proper selection of nodes for the passive ROI
 Passive ROI overlaps location of force nodes
 
 11.	 50 Iterations will run automatically
-- a.	For the L-Bracket, the 50 iteration output will look like the the figures below, where a stress plot is presented to the user
+- a.	For the L-Bracket, the 50 iteration output will look like the  figures below, where a stress plot is presented to the user
 <img width="400" alt="image" src="https://github.com/jvcar/CarstensenGroup/assets/142328197/6874fe91-52ee-4fce-9a61-e857701b65d6">
 <img width="400" alt="image" src="https://github.com/jvcar/CarstensenGroup/assets/142328197/8a573bb8-8b5f-4f6e-bb0b-2554afb40f5b">
 
