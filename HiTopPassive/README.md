@@ -17,11 +17,11 @@ To start, users should download the HiTopPassive folder. Enter the folder and yo
 2. Run the passiveDriver.m script
 3. Set up the cantilever beam design problem. Please reference the HiTop 2.0 READme file (steps 3-10) for detailed guidelines for the GUI.
 ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/e8beb035-9f39-49d6-af88-cb54e11ec52a)
-5. 50 iterations will run automatically.
-6. The user will be prompted to draw a Region of Interest (ROI) in which all design variables will be passively set to void (0).
+4. 50 iterations will run automatically.
+5. The user will be prompted to draw a Region of Interest (ROI) in which all design variables will be passively set to void (0).
    - Draw a closed shape, such as the red one shown below, and double click once finished.
    -  ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/b8c3828b-13dd-44f7-8c35-4dca558e7581)
-8. In the ROI, the user draws a freehand closed shape, such as the white one shown below, which will be set to solid within the shape (1).
+6. In the ROI, the user draws a freehand closed shape, such as the white one shown below, which will be set to solid within the shape (1).
 - It is important that the user includes connection points to rest of the design elements not in the ROI. As shown in the figure below, the user draws multiple overlapping regions so the optimizer can create a continuous, manufacturable result.
 - Double click once finished.
 ![image](https://github.com/jvcar/CarstensenGroup/assets/142328197/287e1292-435d-48c4-be9f-4120202a6b83)
