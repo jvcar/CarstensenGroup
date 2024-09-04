@@ -1,6 +1,6 @@
 # Automatic hyperparameter tuning of topology optimization (TO) algorithms
 
-This is the Demo of the approach presented in the study "Automatic hyperparameter tuning of topology optimization algorithms using surrogate optimization". 
+This is the public code that was featured in the paper "Human Infored Topology Optimization: Automatic hyperparameter tuning of topology optimization algorithms using surrogate optimization." (Ha, D. and Carstensen, J.V., Struct Multidisc Optim 67, 157 (2024). https://doi.org/10.1007/s00158-024-03850-7).
 
 Here, the hyperparameters of the 88-line MATLAB code (Andreassen et al., 2011), solving the MBB compliance minimization problem, is automatically tuned. 
 In this Demo, the SIMP penalty $p$ is optimized to acquire a topology solution that (1) minimizes compliance; (2) has crisp feature boundaries; (3) adhere to the prescribed volume fraction constraint. 
