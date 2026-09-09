@@ -10,10 +10,10 @@ The codebase focuses on the automated extraction and generation of truss-like st
     *   It processes a 2D topology image by binarizing it and extracting special edge features. 
     *   It applies iterative thinning to generate a skeleton of the structure. 
     *   Finally, it extracts truss nodes and elements to plot the generated truss graph.
-*   **Class_Thinning2D_2.m**: This file contains the `Class_Thinning2D` object definition, which drives the skeletonization process. 
+*   **Class_Thinning2D.m**: This file contains the `Class_Thinning2D` object definition, which drives the skeletonization process. 
     *   It includes core methods for simplifying grid points and iterative thinning. 
     *   It also features advanced methods to determine intersection nodes and match elements based on topological relations and hole identification.
-*   **gt_topo_1_2.png**: The base PNG image required to run the main script and demonstrate the thinning and skeletonization capabilities.
+*   **gt_topo_1.png**: The base PNG image required to run the main script and demonstrate the thinning and skeletonization capabilities.
 
 ## Methodology & References
 
